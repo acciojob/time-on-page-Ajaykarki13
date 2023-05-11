@@ -9,7 +9,7 @@ function Timer() {
         setTime(time + 1);
       }, 1000);
     return (
-      <h3>You've been on this page for {time} seconds.</h3>
+      <p>You've been on this page for {time} seconds.</p>
     );
   }
 
